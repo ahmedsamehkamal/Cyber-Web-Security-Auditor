@@ -1,2 +1,23 @@
-# Cyber-Web-Security-Auditor
-2. Full-Stack Web Security &amp; Port Auditing Dashboard built with Python &amp; HTML/CSS/JS
+# 🛡️ Cyber Web Security Auditor v2.0
+
+A lightweight Full-Stack Web Security & Port Auditing tool built with **Python** and a modern **HTML/CSS/JS** dashboard. Designed to help web developers and security analysts quickly assess website security headers, open ports, and generate client-ready audit reports.
+
+## ✨ Key Features
+* **Security Headers Inspection:** Checks for `X-Frame-Options` (Anti-Clickjacking) and `Strict-Transport-Security` (HSTS).
+* **Automated Security Scoring:** Calculates an instant security score (0% - 100%) with color-coded risk indicators.
+* **Port Reconnaissance:** Scans critical network ports (`80 HTTP`, `443 HTTPS`, `21 FTP`) and resolves target server IP addresses.
+* **One-Click Client Reporting:** Exports clean `.txt` audit reports directly from the browser for client delivery.
+
+## 🚀 How to Run Locally
+1. Make sure Python 3 is installed on your machine.
+2. Run the dashboard server:
+   ```bash
+   python cyber_dashboard.py
+   ```
+3. Open your browser and navigate to: `http://localhost:9000`
+
+## ⚠️ Disclaimer
+This tool is created for educational purposes and authorized security auditing only. Always ensure you have proper permission before scanning any target.
+
+## 👨‍💻 Author
+**Business Information Systems (BIS) Graduate | Frontend Developer & Web Security Enthusiast**
